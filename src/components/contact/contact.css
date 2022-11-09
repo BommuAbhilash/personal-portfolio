@@ -61,6 +61,9 @@
     justify-content: center;
     column-gap: 0.25rem;
 }
+.contact__button:hover{
+    color: var(--title-color-dark);
+}
 
 .contact__button-icon {
     font-size: 1rem;
