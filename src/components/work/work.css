@@ -26,11 +26,18 @@
     justify-content: center;
 }
 
+.work__card:hover{
+    transform: translateX(0.4rem) translateY(-1rem);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 .work__card{
     background-color: var(--container-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1.25rem;
     border-radius: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      transition: 0.3s ease-in-out;
 }
 
 .work__img{
