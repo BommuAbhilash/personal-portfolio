@@ -87,8 +87,8 @@ export const projectsData = [
         id: 10,
         image: project10,
         title: 'Black Jack Game',
-        host: 'https://bommuabhilash.github.io/sunil-chhetri/',
-        git: 'https://github.com/BommuAbhilash/sunil-chhetri',
+        host: 'https://bommuabhilash.github.io/blackjack-game/',
+        git: 'https://github.com/BommuAbhilash/blackjack-game',
         category: 'JavaScript'
     }
 ];
