@@ -8,7 +8,7 @@ import project7 from "../../assets/portfolio project photos/project7.jpg"
 import project8 from "../../assets/portfolio project photos/project8.jpg"
 import project9 from "../../assets/portfolio project photos/project9.jpg"
 import project10 from "../../assets/portfolio project photos/project10.jpg"
-
+import project12 from "../../assets/portfolio project photos/project12.png"
 
 export const projectsData = [
     {
@@ -25,6 +25,14 @@ export const projectsData = [
         title: 'Portfolio',
         host: '#home',
         git: 'https://github.com/BommuAbhilash/react-travel-explorer',
+        category: 'React'
+    },
+    {
+        id: 11,
+        image: project12,
+        title: 'Portfolio',
+        host: 'https://lovely-babka-564040.netlify.app/',
+        git: 'https://github.com/BommuAbhilash/modern_website_openai',
         category: 'React'
     },
     {
@@ -98,12 +106,13 @@ export const projectsNav = [
         name: 'All',
     },
     {
-        name: 'Html/Css',
+        name: 'React',
     },
     {
         name: 'JavaScript',
-    },
+    }
+    ,
     {
-        name: 'React',
-    },
+        name: 'Html/Css',
+    }
 ]
